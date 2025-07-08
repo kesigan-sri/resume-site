@@ -3,20 +3,22 @@
     padding: 0;
     /* background-color: cornflowerblue; */
     background-color: #3f84cb;
-    background-color: antiquewhite;
+    background-color: black;
 }
 
 .container {
     display: flex;
     gap: 15px;
-    margin: 20px;
-    justify-content: space-around;
+    /* margin: 20px; */
+    justify-content: flex-start;
     align-items: center;
-
+    background-image: url(./images/photo-1515879218367-8466d910aaa4.jpeg);
+    padding: 120px;
 }
 
 #me {
     border-radius: 25%;
+    background-color: rgb(45, 42, 42);
 }
 
 .icons {
@@ -24,18 +26,40 @@
     width: auto;
     border-radius: 25%;
 }
-
-.icon-container{
+.top{
     display: flex;
-    justify-content: flex-start;
-    gap: 8px;
-    margin-top: 6px;
+    justify-content: center;
 }
-
+.organize{
+    padding: 20px;
+    display: block;
+    width: auto;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(45, 42, 42);
+    
+}
+.icon-container{
+    display: block;
+    padding: 10px;
+    padding-left: 0px;
+    gap: 3px;
+    margin-top: 6px;
+    background-color: transparent;
+    
+}
+.icon-container a {
+    background-color: rgb(45, 42, 42);
+}
 .item3icon{
     order: -1;
+    
 }
-
+.meSection{
+    background-color: rgb(45, 42, 42);
+    display: block;
+    
+}
 .about{
     display: flex;
     text-align: center;
@@ -45,9 +69,12 @@
     margin-right: auto;
     padding: 50px;
     justify-content: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    background-color: #36454F;
 }
-
+.aboutCon{
+    background-color: #36454F;
+}
 .innerAbout{
     height: 150px;
     width: 600px;
@@ -57,7 +84,7 @@
     align-content: space-around;
     justify-content: center;
     background-color: #36454F;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 1%;
     color: white;
 }
@@ -83,6 +110,7 @@
     gap: 120px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #36454F;
 }
 
 .skillsTitle{
@@ -105,8 +133,15 @@
 #contactTitle{
     font-size: 35px;
     margin-bottom: 30px;
+    color: white;
 }
-
+.meSection h1,p {
+    color: white;
+    background-color: rgb(45, 42, 42);
+}
+div.organize{
+    background-color: rgb(45, 42, 42);
+}
 form {
     display: flex;
     height: 250px;
@@ -122,7 +157,6 @@ form {
     padding: 10px;
     list-style: none;
     font-size: 20px;
-    background-color:  rgb(102, 102, 202);
     text-align: center;
     align-items: center;
 }
@@ -136,17 +170,45 @@ a:visited{
 }
 
 .heads a {
-    background-color: rgb(102, 102, 202);
+    background-color: black;
+    color: white;
 }
 
 #navRight{
     margin-left: auto;
    padding-right: 50px;
-    background-color: rgb(102, 102, 202);
+    background-color: black;
+    color: white;
 }
 
-#logo{
+#headerPic{
     height: 50px;
     width: auto;
     align-self: flex-end;
+}
+ul.heads{
+    background-color: black;
+}
+.skillsTitle{
+    color: white;
+    background-color: #36454F;
+    
+}
+
+.skillsContainer{
+    background-color: #36454F;
+    width: auto;
+    height: 500px;
+    padding: 50px;
+}
+.skillsBack{
+    background-color: #36454F;
+}
+
+.logoSection img{
+    background-color: #36454F;
+}
+
+#logo {
+    background-color: rgb(102, 102, 202);
 }

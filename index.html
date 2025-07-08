@@ -9,29 +9,34 @@
 <body>
     <div class="navbar">
         <ul class="heads">
-            <li><img id="logo" src="./images/k-s-letter-logo-design-with-swoosh-design-concept-free-vector.jpg" alt="logo"></li>
+            <li><img id="headerPic" src="./images/k-s-letter-logo-design-with-swoosh-design-concept-free-vector.jpg" alt="logo"></li>
             <li><a href="https://www.google.com/">Resume</a></li>
-            <li><a href="https://www.google.com/">Projects</li>
-            <li id="navRight"><a href="https://www.google.com/">Blog</li>
+            <li><a href="https://www.google.com/">Projects</a></li>
+            <li id="navRight"><a href="https://www.google.com/"></a>Blog</li>
                 
         </ul>
     </div>
     <div class="container">
-        <div>
+        <div class="top">
+        <div class="organize">
+            <div class="meSection">
             <img id = "me" src="./images/5c1d1d50-a5e2-457b-98b4-aaca1ea0727e.jpg" alt="pic of me" height="150px" width="auto">
             <h1>Hello I'm Kesigan</h1>
             <p>Programmer, Investor, and Athlete</p>
+            </div>
             <div class="icon-container">
                 <a href="https://www.linkedin.com/in/kesigan-sribaskararajah-026835191/?originalSubdomain=ca" target="_blank"> <img class="icons" src="./images/LL.png"></a>
                 <a href="https://www.instagram.com/kcgan_07/" target="_blank"> <img class="icons" src="./images/Instagram-Icon.png"></a>
-                <a class="item3icon" href="https://github.com/KS-GEN-AI" target="_blank"> <img class="icons" src="./images/github.png"></a>
+                <a class="item3icon" href="https://github.com/KS-GEN-AI" target="_blank"> <img class="icons" src="./images/clearWHIte.png"></a>
             </div>
         </div>
-        <div>
-            <img src="./images/photo-1515879218367-8466d910aaa4.jpeg" alt = "pic of code" height="350px" width="auto">
         </div>
+        <!-- <div>
+            <img src="./images/photo-1515879218367-8466d910aaa4.jpeg" alt = "pic of code" height="350px" width="auto">
+        </div> -->
     </div>
-    <div class="about">
+    <div class="aboutCon">
+      <div class="about">
         <div class="innerAbout">
             <h3 class="title">About Me</h3>
             <p class="title"> I am currently a master's computer science student at the University of Pennsylvania. 
@@ -39,31 +44,37 @@
                 and C. Outside of class, you can find me playing sports with friends or investing in the 
                 stock market.</p>
         </div>
+       </div>  
     </div>
-    <div class="skillsTitle">
-        <p>My Skills</p>
-    </div>
-    <div class="logoSection">
-        <!-- java, python, c, react, css-->
-         <img src="./images/C_Logo.png" alt="cs logo" class="logos">
-         <img src="./images/python.png" alt="cs logo" class="logos">
-         <img src="./images/181_Java_logo_logos-512.webp" alt="cs logo" class="logos">
-         <img src="./images/css.png" alt="cs logo" class="logos">
-         <img src="./images/React-icon.svg.png" alt="cs logo" class="logos">
-         <img src="./images/ISO_C++_Logo.svg" alt="cs logo" class="logos">
+    
+    <div class="skillsContainer">
+        <div class="skillsBack">
+            <div class="skillsTitle">
+                My Skills
+            </div>
+            <div class="logoSection">
+                <!-- java, python, c, react, css-->
+                <img src="./images/C_Logo.png" alt="cs logo" class="logos">
+                <img src="./images/python.png" alt="cs logo" class="logos">
+                <img src="./images/181_Java_logo_logos-512.webp" alt="cs logo" class="logos">
+                <img src="./images/css.png" alt="cs logo" class="logos">
+                <img src="./images/React-icon.svg.png" alt="cs logo" class="logos">
+                <img src="./images/ISO_C++_Logo.svg" alt="cs logo" class="logos">
+            </div>
+        </div>
     </div>
     <div class="contact">
         <p id="contactTitle">Get in Contact:</p>
         <form>
-            <label> First Name:</label>
+            <!-- <label> First Name:</label> -->
             <input type="text" placeholder="First Name">
-            <label> Last Name:</label>
+            <!-- <label> Last Name:</label> -->
             <input type="text" placeholder="Last Name">
-            <label> Email:</label>
+            <!-- <label> Email:</label> -->
             <input type="text" placeholder="Email">
-            <label> Inquiry:</label>
-            <input type="text" placeholder="Thanks for reaching out. What's up?">
-            <label> Send </label>
+            <!-- <label> Inquiry:</label> -->
+            <input id= "question" type="text" placeholder="Thanks for reaching out. What's up?">
+            <!-- <label> Send </label> -->
             <input type="submit">
         </form>
     </div>
